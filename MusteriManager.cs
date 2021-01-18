@@ -23,20 +23,6 @@ namespace ClassMetotDemo
             Console.WriteLine("Müşteri Silindi" + " : " + musteri.ID + " " + musteri.Adi + " " + musteri.Soyadi + " " + musteri.Sehir + " " + musteri.Telefon);
         }
 
-        public void ListMusteri(Musteri musteri)
-        {
-            
-            //foreach (var Listeler in List)
-            //{
-            //    Console.WriteLine("Musteri ID: " + musteri.ID);
-            //    Console.WriteLine(" ");
-            //    Console.WriteLine("Musteri Adı: " + musteri.Adi);
-            //    Console.WriteLine("Musteri Soyadi: " + musteri.Soyadi);
-            //    Console.WriteLine("Musteri Sehir: " + musteri.Sehir);
-            //    Console.WriteLine("Musteri Telefon: " + musteri.Telefon);
-            //    Console.WriteLine(" ");
-            //}
-            //Console.WriteLine("Müşteri " + " : " + musteri.ID + " " + musteri.Adi + " " + musteri.Soyadi + " " + musteri.Sehir + " " + musteri.Telefon);
-        }
+       
     }
 }
